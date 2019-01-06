@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<title>注册页面</title>
+</head>
+<body>
+	<div class="row" style="margin-top:5% "id="registerform">
+		<h3 style="margin: 0 auto;text-align:center;" >注册页面</h3>
+		<div class="panel-body">
+			<form action="index.php/index/index/add" method="post">
+						<div style="margin-top: 2em ">
+					<label for="username" style="margin-left: 30%"  ">用户名</label>
+					<input type="text " name="username" class="form-control" id="username" placeholder="请输入用户名" style="margin-left: 30%">
+				</div>
+				<br>
+				<div class="form-group" style="margin-top:1em ">
+					<label for="password" style="margin-left: 30%">密码</label>
+					<input type="password" name="password" class="form-control" id="password" placeholder="请输入密码" style="margin-left: 30%" >
+				</div>
+				<br>
+				<div class="form-group" style="margin-top:1em ">
+					<label for="repasssword" style="margin-left: 30%">确认密码</label>
+					<input type="repassword" name="repassword" class="form-control" id="repassword" placeholder="请再次输入您的密码" style="margin-left: 30%" >
+				</div>
+				<br>
+				<div class="form-group" style="margin-top:1em ">
+					<label for="email" style="margin-left: 30%">邮箱</label>
+					<input type="email" name="email" class="form-control" id="email" placeholder="请输入您的邮箱" style="margin-left: 30%" >
+				</div>
+				<div class="form-group" style="margin-top: 2em" >
+					<button id="backbtn"  style="margin-left: 40%" herf="login/index">返回</button>
+					<button id="register"  style="margin-left: 70%" herf="#">确认注册</button>
+				</div>
+			</form>
+			
+		</div>
+		
+
+    </div>
+</body>
+</html>
