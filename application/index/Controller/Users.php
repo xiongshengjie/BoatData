@@ -1,7 +1,7 @@
 <?php
 namespace app\index\controller;
-use app\index\model\Users as UsersModel ;
-class Users 
+use app\index\model\User as UserModel ;
+class User 
 {
 	public function add()
 	{
